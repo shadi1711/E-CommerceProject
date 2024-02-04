@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "json-server -w products.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
