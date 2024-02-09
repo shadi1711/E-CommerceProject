@@ -405,6 +405,51 @@
         "id": "65e0"
       },
       "quantity": 2
+    },
+    {
+      "id": "650b",
+      "product": {
+        "name": "Striped Polo Shirt",
+        "description": "A striped polo shirt for men.",
+        "all_descriptions": "Add a touch of sophistication to your wardrobe with this striped polo shirt ",
+        "old_price": 5.99,
+        "new_price": 4.99,
+        "category": "clothes",
+        "price": 4.99,
+        "image_url": "../imgs/c3.webp",
+        "id": "ee5b"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "c6c7",
+      "product": {
+        "name": "Stylish Messenger Bag",
+        "description": "Premium messenger bag with a sleek design.",
+        "  all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 7.99,
+        "new_price": 5.99,
+        "category": "bags",
+        "price": 5.99,
+        "image_url": "../imgs/b1.webp",
+        "id": "e961"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "9db2",
+      "product": {
+        "name": "Versatile Storage Cabinet",
+        "description": "Maximize storage with this versatile storage cabinet.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 12.99,
+        "new_price": 9.99,
+        "category": "furniture",
+        "price": 9.99,
+        "image_url": "../imgs/f8.webp",
+        "id": "535f"
+      },
+      "quantity": 1
     }
   ]
 }
