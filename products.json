@@ -1,327 +1,410 @@
 {
-    "products": [
-        {
-            "name": "Formal Blue Shirt",
-            "description": "A formal blue shirt for men.",
-            "all_descriptions": "A classic formal blue shirt for men, perfect for business meetings and formal occasions. Made from high-quality cotton fabric, this shirt offers a comfortable fit and a professional look. Elevate your wardrobe with this timeless piece."   ,
-            "old_price": 10.99,
-            "new_price": 8.99,
-            "category": "clothes",
-            "price": 8.99,
-            "image_url": "../imgs/c1.webp"
-        },
-        {
-            "name": "Casual Red T-Shirt",
-            "description": "A casual red t-shirt for men.",
-          "  all_descriptions": "Stay comfortable and stylish with this casual red t-shirt for men. Crafted from soft and breathable cotton, it's ideal for everyday wear. The vibrant red color adds a pop of energy to your look. Embrace casual elegance with this wardrobe essential.",
-            "old_price": 19.99,
-            "new_price": 14.99,
-            "category": "clothes",
-            "price": 14.99,
-            "image_url": "../imgs/c2.webp"
-        },
-        {
-            "name": "Striped Polo Shirt",
-            "description": "A striped polo shirt for men.",
-            "all_descriptions": "Add a touch of sophistication to your wardrobe with this striped polo shirt ",
-            "old_price": 5.99,
-            "new_price": 4.99,
-            "category": "clothes",
-            "price": 4.99,
-            "image_url": "../imgs/c3.webp"
-        },
-        {
-            "name": "Denim Jacket",
-            "description": "A denim jacket for men.",
-            "all_descriptions": "A denim jacket is a timeless addition to any wardrobe. This classic piece is perfect for layering and adds a rugged touch to your look. Made from durable denim, it's designed to withstand the test of time. Elevate your style with this versatile jacket.",
-            "old_price": 29.99,
-            "new_price": 24.99,
-            "category": "clothes",
-            "price": 24.99,
-            "image_url": "../imgs/c4.webp"
-        },
-        {
-            "name": "Plaid Flannel Shirt",
-            "description": "A plaid flannel shirt for men.",
-            "all_descriptions": "Stay warm and stylish with this plaid flannel shirt",
-            "old_price": 14.99,
-            "new_price": 12.99,
-            "category": "clothes",
-            "price": 12.99,
-            "image_url": "../imgs/c5.webp"
-        },
-        {
-            "name": "Cotton Shorts",
-            "description": "Cotton shorts for men.",
-            "all_descriptions": "Stay comfortable and stylish with these cotton shorts",
-            "old_price": 9.99,
-            "new_price": 7.99,
-            "category": "clothes",
-            "price": 7.99,
-            "image_url": "../imgs/c6.webp"
-        },
-        {
-            "name": "Leather Belt",
-            "description": "A leather belt for men.",
-            "all_descriptions": "Complete your look with this classic leather belt",
-            "old_price": 39.99,
-            "new_price": 34.99,
-            "category": "clothes",
-            "price": 34.99,
-            "image_url": "../imgs/c7.webp"
-        },
-        {
-            "name": "Wool Sweater",
-            "description": "A wool sweater for men.",
-            "all_descriptions": "Stay warm and stylish with this wool sweater",
-            "old_price": 24.99,
-            "new_price": 19.99,
-            "category": "clothes",
-            "price": 19.99,
-            "image_url": "../imgs/c8.webp"
-        },
-        {
-            "name": "Stylish Messenger Bag",
-            "description": "Premium messenger bag with a sleek design.",
-            "  all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 7.99,
-            "new_price": 5.99,
-            "category": "bags",
-            "price": 5.99,
-            "image_url": "../imgs/b1.webp"
-        },
-        {
-            "name": "Leather Travel Backpack",
-            "description": "Ideal backpack for travel with genuine leather.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 49.99,
-            "new_price": 44.99,
-            "category": "bags",
-            "price": 44.99,
-            "image_url": "../imgs/b2.webp"
-        },
-        {
-            "name": "Chic Crossbody Bag",
-            "description": "Trendy crossbody bag for a fashionable look.",
-            "old_price": 17.99,
-            "new_price": 14.99,
-            "category": "bags",
-            "price": 14.99,
-            "image_url": "../imgs/b3.webp"
-        },
-        {
-            "name": "Casual Canvas Tote",
-            "description": "Comfortable canvas tote for everyday use.",
-            "old_price": 12.99,
-            "new_price": 9.99,
-            "category": "bags",
-            "price": 9.99,
-            "image_url": "../imgs/b4.webp"
-        },
-        {
-            "name": "Luxury Designer Handbag",
-            "description": "High-end designer handbag for a touch of luxury.",
-            "old_price": 59.99,
-            "new_price": 54.99,
-            "category": "bags",
-            "price": 54.99,
-            "image_url": "../imgs/b5.webp"
-        },
-        {
-            "name": "Modern Laptop Bag",
-            "description": "Sleek laptop bag with modern features.",
-            "old_price": 29.99,
-            "new_price": 24.99,
-            "category": "bags",
-            "price": 24.99,
-            "image_url": "../imgs/b6.webp"
-        },
-        {
-            "name": "Compact Sling Backpack",
-            "description": "Compact sling backpack for on-the-go convenience.",
-            "old_price": 8.99,
-            "new_price": 6.99,
-            "category": "bags",
-            "price": 6.99,
-            "image_url": "../imgs/b7.webp"
-        },
-        {
-            "name": "Premium Travel Duffel",
-            "description": "Durable travel duffel with premium materials.",
-            "old_price": 69.99,
-            "new_price": 64.99,
-            "category": "bags",
-            "price": 64.99,
-            "image_url": "../imgs/b8.webp"
-        },
-        {
-            "name": "High-Resolution Wireless Headphones",
-            "description": "Immerse yourself in music with high-resolution wireless headphones.",
-            "old_price": 34.99,
-            "new_price": 29.99,
-            "category": "electronics",
-            "price": 29.99,
-            "image_url": "../imgs/e1.webp"
-        },
-        {
-            "name": "Smart LED Desk Lamp",
-            "description": "Illuminate your workspace with a smart LED desk lamp.",
-            "old_price": 10.99,
-            "new_price": 7.99,
-            "category": "electronics",
-            "price": 7.99,
-            "image_url": "../imgs/e1.webp"
-        },
-        {
-            "name": "4K Ultra HD Smart TV",
-            "description": "Experience stunning visuals with a 4K Ultra HD smart TV.",
-            "old_price": 79.99,
-            "new_price": 74.99,
-            "category": "electronics",
-            "price": 74.99,
-            "image_url": "../imgs/e2.webp"
-        },
-        {
-            "name": "Portable Bluetooth Speaker",
-            "description": "Enjoy music on the go with a portable Bluetooth speaker.",
-            "old_price": 39.99,
-            "new_price": 34.99,
-            "category": "electronics",
-            "price": 34.99,
-            "image_url": "../imgs/e3.webp"
-        },
-        {
-            "name": "Wireless Charging Pad",
-            "description": "Charge your devices wirelessly with a modern charging pad.",
-            "old_price": 9.99,
-            "new_price": 6.99,
-            "category": "electronics",
-            "price": 6.99,
-            "image_url": "../imgs/e4.webp"
-        },
-        {
-            "name": "HD Action Camera",
-            "description": "Capture your adventures with an HD action camera.",
-            "old_price": 54.99,
-            "new_price": 49.99,
-            "category": "electronics",
-            "price": 49.99,
-            "image_url": "../imgs/e5.webp"
-        },
-        {
-            "name": "Smart Home Security Camera",
-            "description": "Monitor your home with a smart home security camera.",
-            "old_price": 19.99,
-            "new_price": 16.99,
-            "category": "electronics",
-            "price": 16.99,
-            "image_url": "../imgs/e6.webp"
-        },
-        {
-            "name": "Wireless Earbuds",
-            "description": "Experience true freedom with wireless earbuds.",
-            "old_price": 14.99,
-            "new_price": 11.99,
-            "category": "electronics",
-            "price": 11.99,
-            "image_url": "../imgs/e6.webp"
-        },
-        {
-            "name": "Modern Coffee Table",
-            "description": "Enhance your living space with this modern coffee table.",
-            "old_price": 64.99,
-            "new_price": 59.99,
-            "category": "furniture",
-            "price": 59.99,
-            "image_url": "../imgs/f1.webp"
-        },
-        {
-            "name": "Elegant Leather Sofa",
-            "description": "Experience comfort and style with this elegant leather sofa.",
-            "old_price": 24.99,
-            "new_price": 21.99,
-            "category": "furniture",
-            "price": 21.99,
-            "image_url": "../imgs/f2.webp"
-        },
-        {
-            "name": "Minimalist Bookshelf",
-            "description": "Organize your space with a minimalist bookshelf.",
-            "old_price": 6.99,
-            "new_price": 4.99,
-            "category": "furniture",
-            "price": 4.99,
-            "image_url": "../imgs/f3.webp"
-        },
-        {
-            "name": "Luxe Dining Table Set",
-            "description": "Dine in luxury with this luxe dining table set.",
-            "old_price": 74.99,
-            "new_price": 69.99,
-            "category": "furniture",
-            "price": 69.99,
-            "image_url": "../imgs/f4.webp"
-        },
-        {
-            "name": "Rustic Bedside Table",
-            "description": "Add a touch of rustic charm with this bedside table.",
-            "old_price": 34.99,
-            "new_price": 31.99,
-            "category": "furniture",
-            "price": 31.99,
-            "image_url": "../imgs/f5.webp"
-        },
-        {
-            "name": "Cozy Lounge Chair",
-            "description": "Relax in style with this cozy lounge chair.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 8.99,
-            "new_price": 5.99,
-            "category": "furniture",
-            "price": 5.99,
-            "image_url": "../imgs/f6.webp"
-        },
-        {
-            "name": "Sleek Office Desk",
-            "description": "Boost productivity with this sleek office desk.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 49.99,
-            "new_price": 44.99,
-            "category": "furniture",
-            "price": 44.99,
-            "image_url": "../imgs/f7.webp"
-        },
-        {
-            "name": "Versatile Storage Cabinet",
-            "description": "Maximize storage with this versatile storage cabinet.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 12.99,
-            "new_price": 9.99,
-            "category": "furniture",
-            "price": 9.99,
-            "image_url": "../imgs/f8.webp"
-        },
-        {
-            "name": "Wireless Earbuds",
-            "description": "Experience true freedom with wireless earbuds.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-            "old_price": 14.99,
-            "new_price": 11.99,
-            "category": "electronics",
-            "price": 11.99,
-            "image_url": "../imgs/e7.webp"
-        },
-        {
-            "name": "Wireless Earbuds",
-            "description": "Experience true freedom with wireless earbuds.",
-            "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-
-            "old_price": 14.99,
-            "new_price": 11.99,
-            "category": "electronics",
-            "price": 11.99,
-            "image_url": "../imgs/e8.webp"
-        }
-        
-    ]
+  "products": [
+    {
+      "name": "Formal Blue Shirt",
+      "description": "A formal blue shirt for men.",
+      "all_descriptions": "A classic formal blue shirt for men, perfect for business meetings and formal occasions. Made from high-quality cotton fabric, this shirt offers a comfortable fit and a professional look. Elevate your wardrobe with this timeless piece.",
+      "old_price": 10.99,
+      "new_price": 8.99,
+      "category": "clothes",
+      "price": 8.99,
+      "image_url": "../imgs/c1.webp",
+      "id": "1898"
+    },
+    {
+      "name": "Casual Red T-Shirt",
+      "description": "A casual red t-shirt for men.",
+      "all_descriptions": "Stay comfortable and stylish with this casual red t-shirt for men. Crafted from soft and breathable cotton, it's ideal for everyday wear. The vibrant red color adds a pop of energy to your look. Embrace casual elegance with this wardrobe essential.",
+      "old_price": 19.99,
+      "new_price": 14.99,
+      "category": "clothes",
+      "price": 14.99,
+      "image_url": "../imgs/c2.webp",
+      "id": "65e0"
+    },
+    {
+      "name": "Striped Polo Shirt",
+      "description": "A striped polo shirt for men.",
+      "all_descriptions": "Add a touch of sophistication to your wardrobe with this striped polo shirt ",
+      "old_price": 5.99,
+      "new_price": 4.99,
+      "category": "clothes",
+      "price": 4.99,
+      "image_url": "../imgs/c3.webp",
+      "id": "ee5b"
+    },
+    {
+      "name": "Denim Jacket",
+      "description": "A denim jacket for men.",
+      "all_descriptions": "A denim jacket is a timeless addition to any wardrobe. This classic piece is perfect for layering and adds a rugged touch to your look. Made from durable denim, it's designed to withstand the test of time. Elevate your style with this versatile jacket.",
+      "old_price": 29.99,
+      "new_price": 24.99,
+      "category": "clothes",
+      "price": 24.99,
+      "image_url": "../imgs/c4.webp",
+      "id": "491c"
+    },
+    {
+      "name": "Plaid Flannel Shirt",
+      "description": "A plaid flannel shirt for men.",
+      "all_descriptions": "Stay warm and stylish with this plaid flannel shirt",
+      "old_price": 14.99,
+      "new_price": 12.99,
+      "category": "clothes",
+      "price": 12.99,
+      "image_url": "../imgs/c5.webp",
+      "id": "1729"
+    },
+    {
+      "name": "Cotton Shorts",
+      "description": "Cotton shorts for men.",
+      "all_descriptions": "Stay comfortable and stylish with these cotton shorts",
+      "old_price": 9.99,
+      "new_price": 7.99,
+      "category": "clothes",
+      "price": 7.99,
+      "image_url": "../imgs/c6.webp",
+      "id": "9eff"
+    },
+    {
+      "name": "Leather Belt",
+      "description": "A leather belt for men.",
+      "all_descriptions": "Complete your look with this classic leather belt",
+      "old_price": 39.99,
+      "new_price": 34.99,
+      "category": "clothes",
+      "price": 34.99,
+      "image_url": "../imgs/c7.webp",
+      "id": "86a3"
+    },
+    {
+      "name": "Wool Sweater",
+      "description": "A wool sweater for men.",
+      "all_descriptions": "Stay warm and stylish with this wool sweater",
+      "old_price": 24.99,
+      "new_price": 19.99,
+      "category": "clothes",
+      "price": 19.99,
+      "image_url": "../imgs/c8.webp",
+      "id": "73a1"
+    },
+    {
+      "name": "Stylish Messenger Bag",
+      "description": "Premium messenger bag with a sleek design.",
+      "  all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 7.99,
+      "new_price": 5.99,
+      "category": "bags",
+      "price": 5.99,
+      "image_url": "../imgs/b1.webp",
+      "id": "e961"
+    },
+    {
+      "name": "Leather Travel Backpack",
+      "description": "Ideal backpack for travel with genuine leather.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 49.99,
+      "new_price": 44.99,
+      "category": "bags",
+      "price": 44.99,
+      "image_url": "../imgs/b2.webp",
+      "id": "bc1e"
+    },
+    {
+      "name": "Chic Crossbody Bag",
+      "description": "Trendy crossbody bag for a fashionable look.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 17.99,
+      "new_price": 14.99,
+      "category": "bags",
+      "price": 14.99,
+      "image_url": "../imgs/b3.webp",
+      "id": "c178"
+    },
+    {
+      "name": "Casual Canvas Tote",
+      "description": "Comfortable canvas tote for everyday use.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 12.99,
+      "new_price": 9.99,
+      "category": "bags",
+      "price": 9.99,
+      "image_url": "../imgs/b4.webp",
+      "id": "f8f6"
+    },
+    {
+      "name": "Luxury Designer Handbag",
+      "description": "High-end designer handbag for a touch of luxury.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 59.99,
+      "new_price": 54.99,
+      "category": "bags",
+      "price": 54.99,
+      "image_url": "../imgs/b5.webp",
+      "id": "9c15"
+    },
+    {
+      "name": "Modern Laptop Bag",
+      "description": "Sleek laptop bag with modern features.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 29.99,
+      "new_price": 24.99,
+      "category": "bags",
+      "price": 24.99,
+      "image_url": "../imgs/b6.webp",
+      "id": "abe7"
+    },
+    {
+      "name": "Compact Sling Backpack",
+      "description": "Compact sling backpack for on-the-go convenience.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 8.99,
+      "new_price": 6.99,
+      "category": "bags",
+      "price": 6.99,
+      "image_url": "../imgs/b7.webp",
+      "id": "2614"
+    },
+    {
+      "name": "Premium Travel Duffel",
+      "description": "Durable travel duffel with premium materials.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 69.99,
+      "new_price": 64.99,
+      "category": "bags",
+      "price": 64.99,
+      "image_url": "../imgs/b8.webp",
+      "id": "39e2"
+    },
+    {
+      "name": "High-Resolution Wireless Headphones",
+      "description": "Immerse yourself in music with high-resolution wireless headphones.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 34.99,
+      "new_price": 29.99,
+      "category": "electronics",
+      "price": 29.99,
+      "image_url": "../imgs/e1.webp",
+      "id": "2614"
+    },
+    {
+      "name": "Smart LED Desk Lamp",
+      "description": "Illuminate your workspace with a smart LED desk lamp.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 10.99,
+      "new_price": 7.99,
+      "category": "electronics",
+      "price": 7.99,
+      "image_url": "../imgs/e1.webp",
+      "id": "325d"
+    },
+    {
+      "name": "4K Ultra HD Smart TV",
+      "description": "Experience stunning visuals with a 4K Ultra HD smart TV.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 79.99,
+      "new_price": 74.99,
+      "category": "electronics",
+      "price": 74.99,
+      "image_url": "../imgs/e2.webp",
+      "id": "2cd3"
+    },
+    {
+      "name": "Portable Bluetooth Speaker",
+      "description": "Enjoy music on the go with a portable Bluetooth speaker.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 39.99,
+      "new_price": 34.99,
+      "category": "electronics",
+      "price": 34.99,
+      "image_url": "../imgs/e3.webp",
+      "id": "ea67"
+    },
+    {
+      "name": "Wireless Charging Pad",
+      "description": "Charge your devices wirelessly with a modern charging pad.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 9.99,
+      "new_price": 6.99,
+      "category": "electronics",
+      "price": 6.99,
+      "image_url": "../imgs/e4.webp",
+      "id": "d60f"
+    },
+    {
+      "name": "HD Action Camera",
+      "description": "Capture your adventures with an HD action camera.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 54.99,
+      "new_price": 49.99,
+      "category": "electronics",
+      "price": 49.99,
+      "image_url": "../imgs/e5.webp",
+      "id": "0de5"
+    },
+    {
+      "name": "Smart Home Security Camera",
+      "description": "Monitor your home with a smart home security camera.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 19.99,
+      "new_price": 16.99,
+      "category": "electronics",
+      "price": 16.99,
+      "image_url": "../imgs/e6.webp",
+      "id": "05a0"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "Experience true freedom with wireless earbuds.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 14.99,
+      "new_price": 11.99,
+      "category": "electronics",
+      "price": 11.99,
+      "image_url": "../imgs/e6.webp",
+      "id": "15b0"
+    },
+    {
+      "name": "Modern Coffee Table",
+      "description": "Enhance your living space with this modern coffee table.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 64.99,
+      "new_price": 59.99,
+      "category": "furniture",
+      "price": 59.99,
+      "image_url": "../imgs/f1.webp",
+      "id": "1b06"
+    },
+    {
+      "name": "Elegant Leather Sofa",
+      "description": "Experience comfort and style with this elegant leather sofa.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 24.99,
+      "new_price": 21.99,
+      "category": "furniture",
+      "price": 21.99,
+      "image_url": "../imgs/f2.webp",
+      "id": "beab"
+    },
+    {
+      "name": "Minimalist Bookshelf",
+      "description": "Organize your space with a minimalist bookshelf.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 6.99,
+      "new_price": 4.99,
+      "category": "furniture",
+      "price": 4.99,
+      "image_url": "../imgs/f3.webp",
+      "id": "4c0e"
+    },
+    {
+      "name": "Luxe Dining Table Set",
+      "description": "Dine in luxury with this luxe dining table set.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 74.99,
+      "new_price": 69.99,
+      "category": "furniture",
+      "price": 69.99,
+      "image_url": "../imgs/f4.webp",
+      "id": "9103"
+    },
+    {
+      "name": "Rustic Bedside Table",
+      "description": "Add a touch of rustic charm with this bedside table.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 34.99,
+      "new_price": 31.99,
+      "category": "furniture",
+      "price": 31.99,
+      "image_url": "../imgs/f5.webp",
+      "id": "9fa5"
+    },
+    {
+      "name": "Cozy Lounge Chair",
+      "description": "Relax in style with this cozy lounge chair.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 8.99,
+      "new_price": 5.99,
+      "category": "furniture",
+      "price": 5.99,
+      "image_url": "../imgs/f6.webp",
+      "id": "14d2"
+    },
+    {
+      "name": "Sleek Office Desk",
+      "description": "Boost productivity with this sleek office desk.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 49.99,
+      "new_price": 44.99,
+      "category": "furniture",
+      "price": 44.99,
+      "image_url": "../imgs/f7.webp",
+      "id": "8d23"
+    },
+    {
+      "name": "Versatile Storage Cabinet",
+      "description": "Maximize storage with this versatile storage cabinet.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 12.99,
+      "new_price": 9.99,
+      "category": "furniture",
+      "price": 9.99,
+      "image_url": "../imgs/f8.webp",
+      "id": "535f"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "Experience true freedom with wireless earbuds.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 14.99,
+      "new_price": 11.99,
+      "category": "electronics",
+      "price": 11.99,
+      "image_url": "../imgs/e7.webp",
+      "id": "95c6"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "Experience true freedom with wireless earbuds.",
+      "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+      "old_price": 14.99,
+      "new_price": 11.99,
+      "category": "electronics",
+      "price": 11.99,
+      "image_url": "../imgs/e8.webp",
+      "id": "bcc3"
+    }
+  ],
+  "cart": [
+    {
+      "id": "aacc",
+      "product": {
+        "name": "Formal Blue Shirt",
+        "description": "A formal blue shirt for men.",
+        "all_descriptions": "A classic formal blue shirt for men, perfect for business meetings and formal occasions. Made from high-quality cotton fabric, this shirt offers a comfortable fit and a professional look. Elevate your wardrobe with this timeless piece.",
+        "old_price": 10.99,
+        "new_price": 8.99,
+        "category": "clothes",
+        "price": 8.99,
+        "image_url": "../imgs/c1.webp",
+        "id": "1898"
+      },
+      "quantity": 4
+    },
+    {
+      "id": "1865",
+      "product": {
+        "name": "Casual Red T-Shirt",
+        "description": "A casual red t-shirt for men.",
+        "all_descriptions": "Stay comfortable and stylish with this casual red t-shirt for men. Crafted from soft and breathable cotton, it's ideal for everyday wear. The vibrant red color adds a pop of energy to your look. Embrace casual elegance with this wardrobe essential.",
+        "old_price": 19.99,
+        "new_price": 14.99,
+        "category": "clothes",
+        "price": 14.99,
+        "image_url": "../imgs/c2.webp",
+        "id": "65e0"
+      },
+      "quantity": 3
+    }
+  ]
 }
