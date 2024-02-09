@@ -389,7 +389,7 @@
         "image_url": "../imgs/c1.webp",
         "id": "1898"
       },
-      "quantity": 4
+      "quantity": 6
     },
     {
       "id": "1865",
@@ -404,7 +404,7 @@
         "image_url": "../imgs/c2.webp",
         "id": "65e0"
       },
-      "quantity": 3
+      "quantity": 2
     }
   ]
 }
