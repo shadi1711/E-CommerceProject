@@ -481,18 +481,21 @@ section div p {
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url('../imgs/bottom2.png');
-    opacity: 0.6;
+    opacity: 0.78;
     background-size: cover;
+    font-weight: bold;
  
 }
 .form h2 {
     text-align: center;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .form h2 span {
     font-size: 28px;
     color: #2fdab8;
+    font-weight: bold;
 }
 
 #name,
@@ -509,15 +512,18 @@ section div p {
     border-right: none;
     border-bottom: 1.4px solid #080808;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .form input:focus {
     outline: none;
     border-bottom: 2px solid #080808;
+    font-weight: bold;
 }
 
 .form input::placeholder {
     color: #9da3a2;
+    font-weight: bold;
 }
 
 /* Responsive styles */
@@ -552,28 +558,34 @@ section div p {
     background-color: #080808;
     color: white;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .form p {
     text-align: center;
     font-size: small;
     color: #ff0000;
+    font-weight: bold;
 }
 
 #validname {
     display: none;
+    font-weight: bold;
 }
 
 #validemail {
     display: none;
+    font-weight: bold;
 }
 
 #validpassword {
     display: none;
+    font-weight: bold;
 }
 
 #validconfirmpassword {
     display: none;
+    font-weight: bold;
 }
 
 .new {

@@ -377,21 +377,6 @@
   ],
   "cart": [
     {
-      "id": "aacc",
-      "product": {
-        "name": "Formal Blue Shirt",
-        "description": "A formal blue shirt for men.",
-        "all_descriptions": "A classic formal blue shirt for men, perfect for business meetings and formal occasions. Made from high-quality cotton fabric, this shirt offers a comfortable fit and a professional look. Elevate your wardrobe with this timeless piece.",
-        "old_price": 10.99,
-        "new_price": 8.99,
-        "category": "clothes",
-        "price": 8.99,
-        "image_url": "../imgs/c1.webp",
-        "id": "1898"
-      },
-      "quantity": 6
-    },
-    {
       "id": "1865",
       "product": {
         "name": "Casual Red T-Shirt",
@@ -404,7 +389,7 @@
         "image_url": "../imgs/c2.webp",
         "id": "65e0"
       },
-      "quantity": 2
+      "quantity": 3
     },
     {
       "id": "650b",
@@ -437,19 +422,19 @@
       "quantity": 1
     },
     {
-      "id": "9db2",
+      "id": "8a6e",
       "product": {
-        "name": "Versatile Storage Cabinet",
-        "description": "Maximize storage with this versatile storage cabinet.",
+        "name": "Portable Bluetooth Speaker",
+        "description": "Enjoy music on the go with a portable Bluetooth speaker.",
         "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-        "old_price": 12.99,
-        "new_price": 9.99,
-        "category": "furniture",
-        "price": 9.99,
-        "image_url": "../imgs/f8.webp",
-        "id": "535f"
+        "old_price": 39.99,
+        "new_price": 34.99,
+        "category": "electronics",
+        "price": 34.99,
+        "image_url": "../imgs/e3.webp",
+        "id": "ea67"
       },
-      "quantity": 1
+      "quantity": 2
     }
   ]
 }
