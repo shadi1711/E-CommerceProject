@@ -377,7 +377,7 @@
   ],
   "cart": [
     {
-      "id": "1865",
+      "id": "9d81",
       "product": {
         "name": "Casual Red T-Shirt",
         "description": "A casual red t-shirt for men.",
@@ -389,10 +389,40 @@
         "image_url": "../imgs/c2.webp",
         "id": "65e0"
       },
+      "quantity": 5
+    },
+    {
+      "id": "2ba5",
+      "product": {
+        "name": "Leather Travel Backpack",
+        "description": "Ideal backpack for travel with genuine leather.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 49.99,
+        "new_price": 44.99,
+        "category": "bags",
+        "price": 44.99,
+        "image_url": "../imgs/b2.webp",
+        "id": "bc1e"
+      },
       "quantity": 3
     },
     {
-      "id": "650b",
+      "id": "3da9",
+      "product": {
+        "name": "Rustic Bedside Table",
+        "description": "Add a touch of rustic charm with this bedside table.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 34.99,
+        "new_price": 31.99,
+        "category": "furniture",
+        "price": 31.99,
+        "image_url": "../imgs/f5.webp",
+        "id": "9fa5"
+      },
+      "quantity": 3
+    },
+    {
+      "id": "875a",
       "product": {
         "name": "Striped Polo Shirt",
         "description": "A striped polo shirt for men.",
@@ -404,25 +434,10 @@
         "image_url": "../imgs/c3.webp",
         "id": "ee5b"
       },
-      "quantity": 1
+      "quantity": 2
     },
     {
-      "id": "c6c7",
-      "product": {
-        "name": "Stylish Messenger Bag",
-        "description": "Premium messenger bag with a sleek design.",
-        "  all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
-        "old_price": 7.99,
-        "new_price": 5.99,
-        "category": "bags",
-        "price": 5.99,
-        "image_url": "../imgs/b1.webp",
-        "id": "e961"
-      },
-      "quantity": 1
-    },
-    {
-      "id": "8a6e",
+      "id": "0cd3",
       "product": {
         "name": "Portable Bluetooth Speaker",
         "description": "Enjoy music on the go with a portable Bluetooth speaker.",
@@ -433,6 +448,81 @@
         "price": 34.99,
         "image_url": "../imgs/e3.webp",
         "id": "ea67"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "f5f2",
+      "product": {
+        "name": "Leather Belt",
+        "description": "A leather belt for men.",
+        "all_descriptions": "Complete your look with this classic leather belt",
+        "old_price": 39.99,
+        "new_price": 34.99,
+        "category": "clothes",
+        "price": 34.99,
+        "image_url": "../imgs/c7.webp",
+        "id": "86a3"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "acfd",
+      "product": {
+        "name": "Cozy Lounge Chair",
+        "description": "Relax in style with this cozy lounge chair.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 8.99,
+        "new_price": 5.99,
+        "category": "furniture",
+        "price": 5.99,
+        "image_url": "../imgs/f6.webp",
+        "id": "14d2"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "090b",
+      "product": {
+        "name": "Smart LED Desk Lamp",
+        "description": "Illuminate your workspace with a smart LED desk lamp.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 10.99,
+        "new_price": 7.99,
+        "category": "electronics",
+        "price": 7.99,
+        "image_url": "../imgs/e1.webp",
+        "id": "325d"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "9459",
+      "product": {
+        "name": "Casual Canvas Tote",
+        "description": "Comfortable canvas tote for everyday use.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 12.99,
+        "new_price": 9.99,
+        "category": "bags",
+        "price": 9.99,
+        "image_url": "../imgs/b4.webp",
+        "id": "f8f6"
+      },
+      "quantity": 1
+    },
+    {
+      "id": "8a31",
+      "product": {
+        "name": "HD Action Camera",
+        "description": "Capture your adventures with an HD action camera.",
+        "all_descriptions": "Stay organized and stylish with this versatile storage cabinet. Ideal for storing essentials and decor, it offers both functionality and fashion. The durable design and versatile color make it a perfect addition to your home. Experience the convenience and charm of this essential cabinet.",
+        "old_price": 54.99,
+        "new_price": 49.99,
+        "category": "electronics",
+        "price": 49.99,
+        "image_url": "../imgs/e5.webp",
+        "id": "0de5"
       },
       "quantity": 2
     }

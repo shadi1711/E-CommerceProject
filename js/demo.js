@@ -9,7 +9,24 @@ function Slider() {
     'background-image: url("../imgs/banner' + ++currrentimage + '.png")'
   );
 }
+
+var counter = 0;
+// Instead of counter++
+var cartNum = document.getElementById('idnum');
+fetch('http://localhost:3000/cart')
+  .then((response) => response.json())
+  .then((cartItems) => {
+    const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
+    cartNum.innerHTML = totalQuantity;
+  })
+  .catch((error) => {
+    console.error('Error fetching cart:', error);
+  });
+  topFunction = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 setInterval(Slider, 3000);
+
 const productContainer = document.querySelector('.all');
 productContainer.innerHTML = '';
 
@@ -30,21 +47,18 @@ fetch('http://localhost:3000/products')
             <h5>${product.description}</h5>
             <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
             </div>
-            `;
-         
-       
-            const addToCartButton = cart.querySelector('.add-to-cart');
-            addToCartButton.addEventListener('click', (event) => addToCart(event, product));
-            
-            
+      `;
 
-            cart.addEventListener('click', (event) => {
-              if (event.target.tagName === 'BUTTON') {
-                addToCart(event , product);
-              } else {
-                window.location.href = 'product-details.html?id=' + product.id;
-              }
-            });
+      const addToCartButton = cart.querySelector('.add-to-cart');
+      addToCartButton.addEventListener('click', (event) => addToCart(event, product));
+
+      cart.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+          addToCart(event, product);
+        } else {
+          window.location.href = 'product-details.html?id=' + product.id;
+        }
+      });
 
       productContainer.appendChild(cart);
     });
@@ -52,14 +66,6 @@ fetch('http://localhost:3000/products')
   .catch((error) => {
     console.error('Error:', error);
   });
-
-
-
-  
-
-
-
-
 
 function Clothes() {
   const productContainer = document.querySelector('.all-clothes');
@@ -81,25 +87,24 @@ function Clothes() {
                 <h5>${product.description}</h5>
                 <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
                 </div>
-                         
-                `;
-                
-            const addToCartButton = cart.querySelector('.add-to-cart');
-            addToCartButton.addEventListener('click', (event) => addToCart(event, product));
-            
-        cart.addEventListener('click', (event) => {
-          if (event.target.tagName === 'BUTTON') {
-            addToCart(event);
-          } else {
-            window.location.href = 'product-details.html?id=' + product.id;
-          }
-        });
-        productContainer.appendChild(cart);
+      `;
+
+      const addToCartButton = cart.querySelector('.add-to-cart');
+      addToCartButton.addEventListener('click', (event) => addToCart(event, product));
+
+      cart.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+          addToCart(event);
+        } else {
+          window.location.href = 'product-details.html?id=' + product.id;
+        }
       });
-    })
-    .catch((error) => {
-      console.error('Error:', error);
+      productContainer.appendChild(cart);
     });
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   var clothes = document.querySelector('.product .all-clothes');
   var bags = document.querySelector('.product .all-bags');
   var electronics = document.querySelector('.product .all-electronics');
@@ -111,6 +116,7 @@ function Clothes() {
   electronics.style.display = 'none';
   furniture.style.display = 'none';
 }
+
 function Bags() {
   fetch('http://localhost:3000/products?category=bags')
     .then((response) => response.json())
@@ -130,26 +136,25 @@ function Bags() {
             <p class="price">&nbsp;&nbsp;&nbsp;&nbsp ${product.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp   <span class="oldprice">${product.old_price}</span></p>
             <h5>${product.description}</h5>
             <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
+            </div>
+      `;
 
-                      </div>
-            `;
-            
-            const addToCartButton = cart.querySelector('.add-to-cart');
-            addToCartButton.addEventListener('click', (event) => addToCart(event, product));
-            
-        cart.addEventListener('click', (event) => {
-          if (event.target.tagName === 'BUTTON') {
-            addToCart(event);
-          } else {
-            window.location.href = 'product-details.html?id=' + product.id;
-          }
-        });
-        productContainer.appendChild(cart);
+      const addToCartButton = cart.querySelector('.add-to-cart');
+      addToCartButton.addEventListener('click', (event) => addToCart(event, product));
+
+      cart.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+          addToCart(event);
+        } else {
+          window.location.href = 'product-details.html?id=' + product.id;
+        }
       });
-    })
-    .catch((error) => {
-      console.error('Error:', error);
+      productContainer.appendChild(cart);
     });
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   var clothes = document.querySelector('.product .all-clothes');
   var bags = document.querySelector('.product .all-bags');
   var electronics = document.querySelector('.product .all-electronics');
@@ -161,6 +166,7 @@ function Bags() {
   electronics.style.display = 'none';
   furniture.style.display = 'none';
 }
+
 function Electronics() {
   fetch('http://localhost:3000/products?category=electronics')
     .then((response) => response.json())
@@ -180,26 +186,25 @@ function Electronics() {
             <p class="price">&nbsp;&nbsp;&nbsp;&nbsp ${product.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp   <span class="oldprice">${product.old_price}</span></p>
             <h5>${product.description}</h5>
             <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
+            </div>
+      `;
 
-          </div>
-            `;
-            
-            const addToCartButton = cart.querySelector('.add-to-cart');
-            addToCartButton.addEventListener('click', (event) => addToCart(event, product));
-            
-        cart.addEventListener('click', (event) => {
-          if (event.target.tagName === 'BUTTON') {
-            addToCart(event);
-          } else {
-            window.location.href = 'product-details.html?id=' + product.id;
-          }
-        });
-        productContainer.appendChild(cart);
+      const addToCartButton = cart.querySelector('.add-to-cart');
+      addToCartButton.addEventListener('click', (event) => addToCart(event, product));
+
+      cart.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+          addToCart(event);
+        } else {
+          window.location.href = 'product-details.html?id=' + product.id;
+        }
       });
-    })
-    .catch((error) => {
-      console.error('Error:', error);
+      productContainer.appendChild(cart);
     });
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   var clothes = document.querySelector('.product .all-clothes');
   var bags = document.querySelector('.product .all-bags');
   var electronics = document.querySelector('.product .all-electronics');
@@ -211,6 +216,7 @@ function Electronics() {
   electronics.style.display = 'grid';
   furniture.style.display = 'none';
 }
+
 function Furniture() {
   fetch('http://localhost:3000/products?category=furniture')
     .then((response) => response.json())
@@ -223,33 +229,32 @@ function Furniture() {
         const cart = document.createElement('div');
         cart.className = 'cart';
         cart.innerHTML = `
-                    <div class="card">
-                    <div class="new"><span>New</span></div><br><br> 
-                    <img src="${product.image_url}" alt="Denim Jeans"  style="width:60%; height:200px;>
-                    <h1>${product.name}</h1>
-                    <p class="price">&nbsp;&nbsp;&nbsp;&nbsp ${product.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp   <span class="oldprice">${product.old_price}</span></p>
-                    <h5>${product.description}</h5>
-                    <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
+            <div class="card">
+            <div class="new"><span>New</span></div><br><br> 
+            <img src="${product.image_url}" alt="Denim Jeans"  style="width:60%; height:200px;>
+            <h1>${product.name}</h1>
+            <p class="price">&nbsp;&nbsp;&nbsp;&nbsp ${product.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp   <span class="oldprice">${product.old_price}</span></p>
+            <h5>${product.description}</h5>
+            <p><button class="add-to-cart" type="button" name="button" >Add to Cart</button></p>      
+            </div>
+      `;
 
-                </div>
-                    `;
-                    
-            const addToCartButton = cart.querySelector('.add-to-cart');
-            addToCartButton.addEventListener('click', (event) => addToCart(event, product));
-            
-        cart.addEventListener('click', (event) => {
-          if (event.target.tagName === 'BUTTON') {
-            addToCart(event);
-          } else {
-            window.location.href = 'product-details.html?id=' + product.id;
-          }
-        });
-        productContainer.appendChild(cart);
+      const addToCartButton = cart.querySelector('.add-to-cart');
+      addToCartButton.addEventListener('click', (event) => addToCart(event, product));
+
+      cart.addEventListener('click', (event) => {
+        if (event.target.tagName === 'BUTTON') {
+          addToCart(event);
+        } else {
+          window.location.href = 'product-details.html?id=' + product.id;
+        }
       });
-    })
-    .catch((error) => {
-      console.error('Error:', error);
+      productContainer.appendChild(cart);
     });
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
   var clothes = document.querySelector('.product .all-clothes');
   var bags = document.querySelector('.product .all-bags');
   var electronics = document.querySelector('.product .all-electronics');
@@ -262,71 +267,73 @@ function Furniture() {
   furniture.style.display = 'grid';
 }
 
-function Login() {
+function validateForm() {
   var validName = document.getElementById('name');
-  validName.addEventListener('input', function () {
-    var regName = /^[a-zA-Z ]{2,30}$/;
-    if (!String(validName.value).match(regName)) {
-      var name = document.getElementById('validname');
-      name.style.display = 'block';
-    } else {
-      var name = document.getElementById('validname');
-      name.style.display = 'none';
-    }
-  });
-
   var validEmail = document.getElementById('email');
-  validEmail.addEventListener('input', function () {
-    var emailPattern =
-      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if (!String(validEmail.value).match(emailPattern)) {
-      var email = document.getElementById('validemail');
-      email.style.display = 'block';
-    } else {
-      var email = document.getElementById('validemail');
-      email.style.display = 'none';
-    }
-  });
-
   var validPassword = document.getElementById('password');
-  validPassword.addEventListener('input', function () {
-    if (
-      validPassword.value == '' ||
-      validPassword.value.replace(/^\s+|\s+$/gm, '') == '' ||
-      validPassword.value.length < 8
-    ) {
-      var password = document.getElementById('validpassword');
-      password.style.display = 'block';
-    } else {
-      var password = document.getElementById('validpassword');
-      password.style.display = 'none';
-    }
-  });
-
   var validConfirmPassword = document.getElementById('confirm');
-  validConfirmPassword.addEventListener('input', function () {
-    if (
-      validConfirmPassword.value == '' ||
-      validConfirmPassword.value.replace(/^\s+|\s+$/gm, '') == '' ||
-      validConfirmPassword.value.length < 8 ||
-      validConfirmPassword.value != validPassword.value
-    ) {
-      var password = document.getElementById('validconfirmpassword');
-      password.style.display = 'block';
-    } else {
-      var password = document.getElementById('validconfirmpassword');
-      password.style.display = 'none';
-    }
-  });
+  var validDate = document.getElementById('date');
+
+  validateField(validName, /^[a-zA-Z ]{2,30}$/, 'validname', 'Name is Required !');
+  validateField(validEmail, /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, 'validemail', 'Email not valid !');
+  validateField(validPassword, /^.{8,}$/, 'validpassword', 'Password is Required !');
+  validateField(validConfirmPassword, /^.{8,}$/, 'validconfirmpassword', 'Confirm Password not Matched !', validPassword.value !== validConfirmPassword.value);
+  validateDate(validDate, 'validDate', 'Invalid Date!');
+
+  // Check if all fields are valid
+  if (!document.querySelector('.error:not([style="display: none;"])')) {
+    alert('Form submitted successfully!');
+    // Clear the form
+    document.getElementById('myForm').reset();
+  }
 }
 
-var counter = 0;
+function validateField(field, pattern, errorId, errorMessage, customCondition = true) {
+  var errorElement = document.getElementById(errorId);
 
-function addToCart(event, product) {
-  event.preventDefault(); // Prevent the default form submission behavior
+  if (!field.value.match(pattern) || !customCondition) {
+    errorElement.style.display = 'block';
+  } else {
+    errorElement.style.display = 'none';
+  }
+}
 
-  var cartNum = document.getElementById('idnum');
-  cartNum.innerHTML = ++counter;
+function validateDate(dateField, errorId, errorMessage) {
+  var errorElement = document.getElementById(errorId);
+  var datePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+  if (!dateField.value.match(datePattern)) {
+    errorElement.style.display = 'block';
+  } else {
+    errorElement.style.display = 'none';
+  }
+}
+
+document.getElementById('name').addEventListener('input', function () {
+  validateField(this, /^[a-zA-Z ]{2,30}$/, 'validname', 'Name is Required !');
+});
+
+document.getElementById('email').addEventListener('input', function () {
+  validateField(this, /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, 'validemail', 'Email not valid !');
+});
+
+document.getElementById('password').addEventListener('input', function () {
+  validateField(this, /^.{8,}$/, 'validpassword', 'Password is Required !');
+  validateField(document.getElementById('confirm'), /^.{8,}$/, 'validconfirmpassword', 'Confirm Password not Matched !', this.value !== document.getElementById('confirm').value);
+});
+
+document.getElementById('confirm').addEventListener('input', function () {
+  validateField(this, /^.{8,}$/, 'validconfirmpassword', 'Confirm Password not Matched !', this.value !== document.getElementById('password').value);
+});
+
+document.getElementById('date').addEventListener('input', function () {
+  validateDate(this, 'validDate', 'Invalid Date!');
+});
+
+
+  // Inside addToCart function
+function addToCart(e, product) {
+  e.preventDefault();
 
   fetch('http://localhost:3000/cart')
     .then((response) => response.json())
@@ -336,8 +343,10 @@ function addToCart(event, product) {
       );
 
       if (existingProduct) {
+        // If the product already exists, increase the quantity
         existingProduct.quantity++;
 
+        // Update the quantity on the server
         fetch(`http://localhost:3000/cart/${existingProduct.id}`, {
           method: 'PUT',
           headers: {
@@ -348,11 +357,13 @@ function addToCart(event, product) {
           .then((response) => response.json())
           .then((updatedCart) => {
             console.log('Cart updated:', updatedCart);
+            // Optionally, update the UI to reflect the change in cart
           })
           .catch((error) => {
             console.error('Error updating cart:', error);
           });
       } else {
+        // If the product doesn't exist, add it to the cart
         fetch('http://localhost:3000/cart', {
           method: 'POST',
           headers: {
@@ -368,6 +379,7 @@ function addToCart(event, product) {
           .then((response) => response.json())
           .then((updatedCart) => {
             console.log('Product added to cart:', updatedCart);
+            // Optionally, update the UI to reflect the change in cart
           })
           .catch((error) => {
             console.error('Error adding product to cart:', error);
@@ -378,12 +390,4 @@ function addToCart(event, product) {
       console.error('Error fetching cart:', error);
     });
 }
-
-topFunction = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
-
-
-
-
 
